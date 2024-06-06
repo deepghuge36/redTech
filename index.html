@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700' rel='stylesheet'>
+<title>Technology page</title>
+<!-- reset css start -->
+<style type="text/css">
+/* reset css start */
+*{margin:0;padding:0;list-style:none;box-sizing:border-box;outline:none;text-decoration:none;font-family: "Montserrat", sans-serif;border:none;}
+figure{width: 100%; line-height: 0; overflow: hidden; position: relative;}
+figure img{width: 100%; transform: scale(1); transition: all .5s ease-in-out;}
+figure:hover img{transform: scale(1.2); transition: all .5s ease-in-out;}
+button{background: none}
+body.adcls{overflow: hidden;}
+.dflex{display: flex;}
+.jstbtwn{justify-content: space-between;}
+.jstcntr{justify-content: center;}
+.algncntr{align-items: center;}
+.flxwrp{flex-wrap: wrap;}	
+.txt16{font-size: 16px;line-height: 22px;}
+.txt55{ font-size: 55px;line-height: 55px;}
+.txt75{ font-size: 75px;line-height: 85px;}
+.txtwht{color: #fff!important}
+.txtred{color: rgba(194,20,45)!important}
+h2, h3, h4, h5, h6{font-weight: 600}
+figure{width: 100%; line-height: 0;}
+figure img{width: 100%;}
+.container{max-width: 1280px; margin: auto; padding: 0 10px;}
+.greybg{background: #F0F0F0; padding-bottom:10px; }
+.pdtp50{padding-top: 50px}
+.pdtp100{padding-top: 100px}
+.pdtp200{padding-top: 200px}
+.slideanim {visibility:hidden;}
+.slide {animation-name: slide;-webkit-animation-name: slide;animation-duration: 1s;-webkit-animation-duration: 1s;visibility: visible;}
+@keyframes slide {
+0% {opacity: 0;transform: translateY(70%);} 
+100% {opacity: 1;transform: translateY(0%);}
+}
+@media screen and (max-width: 768px){
+.txt75 {font-size: 35px;line-height: 45px;}	
+.txt55{ font-size: 30px;line-height: 35px;}
+.pdtp100{padding-top: 25px}
+.pdtp200{padding-top: 50px}
+.pdtp50{padding-top: 25px}
+}
+</style>	
+<!-- reset css end -->
+</head>
+
+<body>
+<!-- header  start -->
+<header class="myhdr">
+<div class="container dflex jstbtwn algncntr">
+<a href="#" class="lg"><img src="images/logo.svg" alt=""></a>
+<div class="hdrrhs dflex jstbtwn algncntr">
+<nav>
+<ul class="navitms dflex">
+<li><a href="#">Jobs</a></li>
+<li><a href="#">Candidates</a></li>
+<li><a href="#">Employers</a></li>
+<li><a href="#">Technologies</a></li>
+<li><a href="#">Register/Login</a></li>
+<li><a href="#">Upload a job</a></li>	
+</ul>	
+</nav>
+
+<div class="hdrrhsbtn dflex">
+<a href="#" class="mapicn"><img src="images/ocation.svg" alt=""></a>
+<a href="#" class="navicn"><span></span></a>
+</div>
+
+</div>	
+</div>
+</header>
+<style type="text/css">
+header{background: rgba(194,20,45,.9); padding: 25px 0;width: 100%; position: sticky;top:0; z-index: 99}
+.lg{width: 120px; flex-shrink: 0; line-height: 0;}
+.hdrrhs{}
+nav{}
+.navitms{gap: 50px}
+.navitms li{flex-shrink: 0; position: relative;}
+.navitms li:after{content: ""; position: absolute; background: #e11932; height: 6px; left: 0; right: 0; bottom:-12px; transform: scale(0); transition: all .5s ease-in-out; display: block;}
+.navitms li.active:after, .navitms li:hover:after{transform: scale(1); transition: all .5s ease-in-out}
+.navitms li a{font-size: 16px; line-height: 20px; color: #fff;}
+.navicn{position: relative;width: 30px; display: block;}
+.navicn span, .navicn span:before, .navicn span:after{content: ""; width: 30px; height: 3px; background: #fff; position: absolute; left: 0; border-radius: 30px;}
+.navicn span{}
+.navicn span:before{width: 25px;top: 10px;}
+.navicn span:after{width: 22px;top: 21px;}
+.hdrrhsbtn{gap: 30px;margin-left: 30px;}
+.mapicn{}
+@media screen and (max-width:768px){
+header{padding: 15px 0;}
+nav{display: none;}	
+}
+</style>
+<!-- header end -->
+
+<!-- tpbox start -->
+<div class="tpbxwrp">
+<div class="container">
+
+<div class="tpbx">
+
+<h1 class="txt75 txtwht">Technology recruitment? Think bigger.</h1>
+<p class="txt18 txtwht">We are RED Global: Powering digital transformations across the globe by connecting the best tech talent to the right roles.</p>
+
+<div class="tpbxbtn dflex">
+<a href="#">Looking for talent? <img src="images/arrow.svg"></a>
+<a href="#">Looking for work? <img src="images/arrow.svg"></a>		
+</div>	
+
+</div>
+
+</div>
+</div>
+
+<form>
+<div class="tpbxform dflex jstbtwn algncntr">
+<label><input type="text" value="one" name=""></label>
+<label><select><option>Select</option></select></label>
+<label><input type="text" value="one" name=""></label>
+<label><select><option>Select</option></select></label>	
+<label><button class="dflex jstbtwn algncntr">Search <img src="images/arrow.svg"></button></label>	
+</div>
+</form>
+
+<style type="text/css">
+.tpbxwrp{background: rgba(194,20,45,.9);}
+.tpbx{width: 90%;background: url(images/hero-about.webp) no-repeat bottom right;min-height: 620px;padding-right: 530px;padding-top: 40px;text-align: center; margin:auto;}
+.tpbx h1{font-weight: 500}
+.tpbx p{margin: 30px 0}
+.tpbxbtn{gap: 10px}
+.tpbxbtn a{height: 55px;line-height: 55px;padding: 0 30px;background: #1F465A;font-size: 16px;color: #fff;font-weight: 500;}
+.tpbxbtn a img{margin-left: 30px; display: inline-block; filter: invert(1); position: relative; left: 0; transition: all .5s ease-in-out}
+.tpbxbtn a:hover{background: #3F5561}
+.tpbxbtn a:hover img{left: 10px; transition: all .5s ease-in-out}
+.tpbxbtn.forred a{background: rgba(194,20,45);}
+.tpbxform{width: 84%;background: #fff;padding: 15px 20px;position: relative;margin: -120px auto 60px auto;z-index: 1;}
+.tpbxform label{width: 19.5%;}
+.tpbxform label input, .tpbxform label select, .tpbxform label button{width: 100%;height: 32px;line-height: 32px;background: #eee;padding: 0 15px;color: #666;font-size: 14px;}
+.tpbxform label button{background: rgba(194, 20, 45);color: #fff;}
+.tpbxform label button *{filter: invert(1);}
+@media screen and (max-width:768px){
+.tpbx {padding-right: 0;  width: auto;background: none;padding-top: 20px;text-align: center;margin: 0 -10px;min-height: auto;}
+.tpbxbtn {display: block; margin: 0 10px}
+.tpbxbtn a {height: 45px;line-height: 45px;padding: 0 15px;display: block;margin-top: 10px;}
+.tpbxform {width: auto;padding: 10px;margin: 0;border: 10px solid rgba(194, 20, 45);display: block;}
+.tpbxform label {width: 100%;display:block;margin: 10px 0;}
+}	
+</style>
+<!-- tpbox end -->
+
+<!-- content with heading start-->
+<div class="greybg pdtp100">
+<div class="container">
+
+<div class="bxwithhd dflex jstbtwn">
+<h2 class="bxhd slideanim">Technologies</h2>
+<div class="bx">
+<h3 class="txt55 txtred slideanim">Specialising in tech. Recruiting worldwide.</h3>
+<div class="pdtp100"></div>
+<p class="txt16 slideanim">With 24 years and over 40,000 placements, we know tech. We know transformation. We understand the projects and requirements. With RED Global, you’ll know your project is in the right hands from our first meeting to the last deliverable.
+</p>
+</div>	
+</div>
+
+<div class="btnlg">
+
+<a href="#" class="slideanim">
+<img src="images/Business-Applications.svg" alt="" class="frstimg">
+Business Applications 
+<img src="images/arrow.svg" alt="" class="scndimg">
+</a>
+
+<a href="#" class="slideanim">
+<img src="images/Cloud-Infrastructure.svg" alt="" class="frstimg">
+Cloud & Infrastructure
+<img src="images/arrow.svg" alt="" class="scndimg">
+</a>
+
+<a href="#" class="slideanim">
+<img src="images/Cyber-Security.svg" alt="" class="frstimg">
+Cyber Security
+<img src="images/arrow.svg" alt="" class="scndimg">
+</a>
+
+<a href="#" class="slideanim">
+<img src="images/Data-Analytics.svg" alt="" class="frstimg">
+Data & Analytics 
+<img src="images/arrow.svg" alt="" class="scndimg">
+</a>
+
+<a href="#" class="slideanim">
+<img src="images/sap.svg" alt="" class="frstimg">
+SAP
+<img src="images/arrow.svg" alt="" class="scndimg">
+</a>
+
+<a href="#" class="slideanim">
+<img src="images/Software-Development.svg" alt="" class="frstimg">
+Software Development 
+<img src="images/arrow.svg" alt="" class="scndimg">
+</a>
+
+</div>	
+
+</div>
+</div>
+
+<style type="text/css">
+.bxwithhd{ align-items: flex-start;}
+.bx{width: 82%; padding-left: 100px;}
+.bx .txt55{font-weight: 500}
+.bx p{font-weight: 600}
+.bxhd{font-size: 14px;line-height: 22px;color: #4f0810;border-bottom: 1px solid #ccc;flex-shrink: 0; display: inline-block;}
+.btnlg{width: 70%; margin: auto; margin-top: 50px}
+.btnlg a{height: 90px;line-height: 90px;padding: 0 30px;background: #E11932;color: #fff;display: flex;align-items: center;margin-top: 10px;font-size: 22px;font-weight: 600; position: relative;}
+.frstimg{margin-right: 20px}
+.scndimg{filter: invert(1);transform: scale(2);position: absolute;right: 35px;transition: all .5s ease-in-out}
+.btnlg a:hover .scndimg{right: 25px; transition: all .5s ease-in-out}
+.btnlg a:hover{background: #C4132E}
+.bx-in{width: 100%;}
+.bx-in-txt{width: 58%; flex-shrink: 0;}
+.bx-in-txt p{font-weight: 400;margin-bottom: 25px;}
+.bx-in-img{width: 38%; flex-shrink: 0;}
+@media screen and (max-width: 768px){
+.bxwithhd, .bx-in{display: block;}	
+.bx {width: 100%;padding-left: 0;}
+.bx-in-txt, .bx-in-img{width: 100%}
+.bx-in-txt{margin-bottom: 25px}
+.bxhd {margin-bottom: 10px;}
+.btnlg {width: 100%;margin-top: 20px;}
+.btnlg a {height: 60px;line-height: 60px;padding: 0 10px;font-size: 15px;}
+}
+</style>
+<!-- content with heading end-->
+
+<!-- content with heading start-->
+<div class="container pdtp100">
+
+<!-- start -->
+<div class="bxwithhd dflex jstbtwn">
+<h2 class="bxhd"></h2>
+<div class="bx">
+<h3 class="txt55 txtred slideanim">Shaping tech careers. Energising businesses.</h3>
+</div>	
+</div>
+<!-- end -->
+
+<div class="pdtp100"></div>
+
+<!-- start -->
+<div class="bxwithhd dflex jstbtwn">
+<h2 class="bxhd">Introduction</h2>
+<div class="bx">
+<div class="bx-in dflex jstbtwn">
+<div class="bx-in-txt">
+<p class="txt16 slideanim"><b>24+ years in technology recruitment, born from a mastery of SAP recruitment.</b></p>
+<p class="txt16 slideanim">300,000+ tech candidates worldwide. </p>
+<p class="txt16 slideanim">8 recruitment offices around the world. </p>
+<p class="txt16 slideanim">If it’s technology talent you’re looking for, or the best IT jobs on the market, we’re who you speak to.</p>
+<p class="txt16 slideanim">RED Global: The IT recruitment specialists connecting rare candidates with the companies that need them.</p>
+<p class="txt16 slideanim">From pure technology recruitment to strategic project advice, we have the capabilities, tech talent network, and commitment to deliver what you need.</p>
+<p class="txt16 slideanim">So, what do you want to achieve? What do you want to know? What are you looking for?</p>	
+
+<div class="pdtp100"></div>
+
+<div class="tpbxbtn forred dflex slideanim">
+<a href="#">Book a strategy call <img src="images/arrow.svg"></a>	
+</div>	
+
+</div>
+<div class="bx-in-img slideanim">
+<figure><img src="images/main-s4hana.jpg" alt="">
+</figure>
+</div>
+</div>	
+</div>
+</div>
+<!-- end -->
+
+<div class="pdtp200"></div>
+</div>
+<!-- content with heading end-->
+
+<!-- slide start -->
+<div class="sldrwrap">
+<div class="container">	
+
+<h2 class="bxhd">Testimonials</h2>
+<div class="sldr dflex jstbtwn">
+<figcaption class="slideanim">
+ "RED Global is trustworthy and respects boundaries when working with hiring managers."
+<span>Consulting Director, SAP Solutions Consultancy</span>	
+
+<div class="sldrnav slideanim">
+<a href="#">#1</a>
+<a href="#" class="active">#2</a>
+<a href="#">#3</a>	
+<a href="#">#4</a>
+</div>
+</figcaption>
+<figure class="slideanim"><img src="images/testimonial-man1.webp" alt="">
+</figure>	
+</div>
+
+</div>
+</div>
+<style type="text/css">
+.sldrwrap{border-bottom: 70px solid rgba(194, 20, 45);}
+.sldr{ align-items: flex-end;}
+.sldr figcaption{width: 65%;font-size: 60px;color: rgba(194, 20, 45);line-height: 70px;font-weight: 500;}
+.sldr figcaption span{font-size: 15px; font-weight: bold; display: block;}
+.sldr figure{width: 35%;}
+.sldrnav{display: flex; gap: 20px; margin-bottom: 40px}
+.sldrnav a{width: 100px;height: 70px;line-height: 70px;text-align: center;border-bottom: 10px solid #DCDCDC;color: #DCDCDC;font-size: 30px;}
+.sldrnav a.active{border-bottom: 10px solid rgba(194, 20, 45); color: rgba(194, 20, 45);}	
+@media screen and (max-width: 768px){
+.sldrwrap {border-bottom: 0px solid rgba(194, 20, 45);}	
+.sldr{display: block;position: relative;padding-bottom: 80px;}
+.sldr figcaption, .sldr figure{width: 100%}	
+.sldr figcaption{font-size: 30px;line-height: 40px;}
+.sldrnav {margin-bottom: 20px;position: absolute;bottom: 0;width: 100%;}
+.sldr figure {border-bottom: 10px solid rgba(194, 20, 45); width: auto!important; margin: 0 -10px;}
+}
+</style>
+<!-- slide end -->
+
+<!-- map start -->
+<div class="greybg mapwrp">
+<div class="container">
+<h2 class="bxhd">We are global</h2>
+
+<div class="map slideanim">
+<img src="images/map1.svg" alt="">	
+</div>
+
+<ul class="mapnav dflex slideanim">
+<li class="active"><a href="#"><img src="images/global-icon.svg" alt="">Global</a></li>
+<li><a href="#"><img src="images/North-America.svg" alt="">North America</a></li>
+<li><a href="#"><img src="images/South-America.svg" alt="">South America</a></li>
+<li><a href="#"><img src="images/Europe.svg" alt="">Europe</a></li>
+<li><a href="#"><img src="images/Africa.svg" alt="">Africa</a></li>
+<li><a href="#"><img src="images/Asia.svg" alt="">Asia</a></li>	
+</ul>
+
+</div>	
+</div>
+<style type="text/css">
+.mapwrp{padding:40px 0;}
+.map{width: 90%; margin: auto;}	
+.mapnav{gap:8%; justify-content: center;     margin-top: 50px;}
+.mapnav li a{color: #4f0810;font-size: 14px;font-weight: 600;text-align: center;display: block;}
+.mapnav li a img{display: block;margin: auto;height: 50px;margin-bottom: 10px; filter: brightness(0) invert(1);}
+.mapnav li:hover a img, .mapnav li.active a img{filter:invert(0);}
+@media screen and (max-width: 768px){
+.mapnav {gap: 5%;overflow: scroll;}
+.mapnav li{flex-shrink: 0}
+}
+</style>
+<!-- map end -->
+
+
+<div class="pdtp50"></div>
+
+<div class="container">
+
+<!-- img button start -->
+<div class="imgbtnwrp dflex jstbtwn slideanim">
+<a href="#" class="imgbtn imgbtnf"><div>Looking for work. <img src="images/arrow.svg"></div></a>	
+<a href="#" class="imgbtn imgbtns"><div>Looking for talent. <img src="images/arrow.svg"></div></a>	
+</div>
+<style type="text/css">
+.imgbtnwrp{}
+.imgbtn{border-top: 8px solid rgba(194, 20, 45, .8);width: 49%;padding: 70px 0;display: flex;justify-content: center;align-items: center;color: #fff;font-size: 24px;font-weight: 600; position: relative;}
+.imgbtn:before, .imgbtn:after{content: "";position: absolute; top:0; right:0; bottom: 0; left: 0}
+.imgbtn:before{background: rgba(0,0,0,.1)}
+.imgbtn:after{background: rgba(194,20,45); z-index: 1; transform: scale(1); transition: all .5s ease-in-out}
+.imgbtn.imgbtnf{background: url(images/imgbtnf.jpg) 0 0 no-repeat;background-size: cover;}
+.imgbtn.imgbtns{background: url(images/imgbtns.jpg) 0 0 no-repeat;background-size: cover;}
+.imgbtn div{display: flex;align-items: center;line-height: 0;gap: 100px; position: relative; z-index: 3; transition: all .5s ease-in-out}
+.imgbtn div img{filter: invert(1); transform: scale(2); }
+.imgbtn:hover div{gap: 120px; transition: all .5s ease-in-out}
+.imgbtn:hover:after{transform: scale(0); transition: all .5s ease-in-out}
+@media screen and (max-width: 768px){
+.imgbtnwrp {display: block;}
+.imgbtn{width: 100%; border-top: 4px solid rgba(194, 20, 45, .8);padding: 30px 0;font-size: 17px;margin: 10px 0;}
+}	
+</style>
+<!-- img button start -->
+
+<div class="pdtp100"></div>
+
+
+<!-- start -->
+<div class="bxwithhd dflex jstbtwn slideanim">
+<h2 class="bxhd"></h2>
+<div class="bx">
+<h3 class="txt55 txtred">Your global recruitment gateway to the future of technology.</h3>
+</div>	
+</div>
+<!-- end -->
+
+<div class="pdtp100"></div>
+
+<!--  Talent Solutionsstart -->
+<div class="bxwithhd dflex jstbtwn">
+<h2 class="bxhd">Talent Solutions</h2>
+<div class="bx">
+<div class="bx-in dflex jstbtwn">
+<div class="bx-in-txt">
+<p class="txt16 slideanim"><b>We’re not just an IT recruitment agency. We’re consultants, advisors, and problem solvers. We ask, “What exactly are you trying to achieve?” And then we deliver your complete recruitment solution.</b></p>
+<p class="txt16 slideanim">Our vision is to improve the way the world works, through people and technology.  </p>
+<p class="txt16 slideanim">So whether you need to fill a role, or want expert guidance on your next project, we can help. We offer the following services:</p>
+
+<ul class="bxinsidelist slideanim">
+<li>Contract, Permanent & Executive Recruitment</li>
+<li>Resource Budgeting</li>
+<li>Onsite/Offshore/Nearshore Recruitment</li>
+<li>Change Management & Training Solutions</li>
+<li>Testing</li>
+<li>Project Advisory</li>
+<li>SI collaboration</li>	
+</ul>
+
+<div class="pdtp100"></div>
+
+<div class="tpbxbtn forred dflex slideanim">
+<a href="#">View our services <img src="images/arrow.svg"></a>	
+</div>	
+
+</div>
+<div class="bx-in-img slideanim">
+<figure><img src="images/main-s4hana.jpg" alt="">
+</figure>
+</div>
+</div>	
+</div>
+</div>
+<style type="text/css">
+.bxinsidelist{}
+.bxinsidelist li{position: relative;font-size: 15px;margin-bottom: 10px;padding-left:15px;}
+.bxinsidelist li:before{content: "";background: rgba(194, 20, 4);width: 7px;height: 7px;position: absolute;left: 0;top: 7px;border-radius: 100%;}	
+</style>
+<!-- Talent Solutions end -->
+
+<div class="pdtp100"></div>
+
+<!-- counter start -->
+<ul class="counter dflex slideanim">
+<li><span>300000+</span>
+Private global network of tech professionals</li>
+
+<li><span>1600+</span>
+Consultants working on live roles</li>
+
+<li><span>40000+</span>
+Placements made</li>
+
+<li><span>300</span>
+Employees worldwide	</li>
+</ul>
+<style type="text/css">
+.counter{gap:50px; justify-content: center;}
+.counter li{font-size: 16px;line-height: 45px;}
+.counter li span{display: block;color: rgba(194, 20, 4);font-size: 60px;font-weight: 500;}	
+@media screen and (max-width: 768px){
+.counter {gap: 20px 0;justify-content: space-between;flex-wrap: wrap;}
+.counter li {font-size: 14px;line-height: 24px;width: 48%;}
+.counter li span {font-size: 30px;}
+}
+</style>
+<!-- counter end -->
+
+<div class="pdtp200"></div>
+
+</div>
+
+<!-- feature job start -->
+<div class="ftrsjob greybg">
+<div class="pdtp100"></div>
+
+<div class="container">
+
+<div class="bxwithhd dflex jstbtwn slideanim">
+<h2 class="bxhd">Featured Jobs</h2>
+<div class="bx">
+<h3 class="txt55 txtred">Explore your options with our latest tech job listings.</h3>
+</div>	
+</div>
+
+<div class="ftrsjobslidewrp">
+<div class="ftrsjobslide">
+
+<div data-glide-el="controls" class="ftrsjobslidear dflex jstbtwn algncntr slideanim">
+<button data-glide-dir="<"></button>
+<button data-glide-dir=">"></button>
+</div>
+
+<div data-glide-el="track"> 	
+<ul class="dflex slideanim">
+
+<li>
+<h3 class="ftrsjobslidehd"><a href="#">SAP SD CS</a></h3>
+<div class="ftrsjobslidemap dflex jstbtwn">
+<div><img src="images/ftrjobmap.svg" alt="">Spain, Western Europe</div>	
+<div><img src="images/negotiate.svg" alt="">Negotiable</div>		
+</div>
+<p>Serve as a back up to the internal ManMan Lead Monitor of the system and security - tickets would...</p>
+<div class="ftrsjobslidebtn dflex jstbtwn algncntr">
+<a href="#">More details</a>	
+<div class="tpbxbtn forred">
+<a href="#">Apply now <img src="images/arrow.svg"></a>	
+</div>			
+</div>
+</li>
+
+</ul>
+</div>
+
+</div>
+</div>
+
+<a href="#" class="vwallbtn slideanim">View all</a>
+	
+</div>
+
+<div class="pdtp100"></div>	
+</div>
+<style type="text/css">
+.ftrsjob{}
+.ftrsjobslidewrp{position: relative; overflow: hidden;}
+.ftrsjobslide{overflow: hidden;}
+.ftrsjobslide ul{}
+.ftrsjobslide ul li{background: #fff;padding: 20px;}
+.ftrsjobslide ul li p{display: -webkit-box;-webkit-line-clamp: 3;-webkit-box-orient: vertical;  overflow: hidden; font-size: 13px;line-height: 18px;}
+.ftrsjobslidear{height: 45px;  margin: 20px 0;}
+.ftrsjobslidear button{cursor: pointer;width: 30px;height: 30px;border-top: 2px solid rgba(194, 20, 45);border-left: 2px solid rgba(194, 20, 45);transform: rotate(-45deg);left: 10px;display: block;position: relative;}
+.ftrsjobslidear button:last-child{transform: rotate(135deg);left: -6px;}
+.ftrsjobslidehd{font-size: 18px;color: #c4132e;}
+.ftrsjobslidehd a{text-decoration: underline;color: #c4132e;}	
+.ftrsjobslidemap{padding: 20px 0 }
+.ftrsjobslidemap div{font-size: 13px;display: flex;align-items: flex-start;line-height: 16px;gap: 5px;}
+.ftrsjobslidemap div img{}
+.ftrsjobslidebtn{margin-top: 15px;}
+.ftrsjobslidebtn a{height: 32px;display: flex;line-height: 30px;align-items: center;color: #c4132e; font-size: 12px}
+.ftrsjobslidebtn .tpbxbtn.forred a{color: #fff;    padding: 0 10px;}
+.vwallbtn{display: flex;color: #333;font-size: 16px;text-align: right;margin-top: 50px;justify-content: flex-end;align-items: center;gap: 10px;}
+.vwallbtn:after{content: "";width: 150px;height: 1px;background: #ccc;}
+</style>
+<!-- feature job end -->
+
+<!-- start -->
+
+<div class="pdtp100"></div>
+
+<div class="container">
+
+<!--  Resources start -->
+<div class="bxwithhd dflex jstbtwn">
+<h2 class="bxhd">Resources</h2>
+<div class="bx">	
+<div class="bx-in dflex jstbtwn">
+
+<div class="bx-in-txt">
+<h3 class="txt55 txtred slideanim">Your Cloud Career Toolkit</h3>	
+<div class="pdtp50"></div>
+<p class="txt16 slideanim"><b>Finding your dream job and navigating your way through a successful career can be challenging.</b></p>
+<p class="txt16 slideanim">Our vision is to improve the way the world works, through people and technology.</p>
+<p class="txt16 slideanim">So whether you need to fill a role, or want expert guidance on your next project, we can help. We offer the following services:</p>
+<p class="txt16 slideanim">If you have any feedback about the toolkit, we'd love to hear from you. </p>
+<p class="txt16 slideanim"><b>To download our free Cloud Career Toolkit, fill out the form and click 'download'.</b></p>
+</div>
+
+<div class="bx-in-img slideanim">
+<figure><img src="images/main-s4hana.jpg" alt=""></figure>
+</div>
+</div>	
+</div>
+</div>
+<!-- Resources end -->
+
+<div class="pdtp200"></div>
+
+<!--  clients start -->
+<div class="bxwithhd slideanim">
+<h2 class="bxhd">Our Clients</h2>	
+</div>
+
+<div class="clntslidewrp">
+<div class="clntslide">
+
+<div data-glide-el="controls" class="ftrsjobslidear dflex jstbtwn algncntr slideanim">
+<button data-glide-dir="<"></button>
+<button data-glide-dir=">"></button>
+</div>
+
+<div data-glide-el="track"  class="clntslidetrack slideanim"> 	
+<ul class="dflex">
+<li><figure><img src="images/ntt-data.svg" alt=""></figure></li>
+<li><figure><img src="images/tevapharm.svg" alt=""></figure></li>
+<li><figure><img src="images/capgemini.svg" alt=""></figure></li>
+<li><figure><img src="images/ntt-data.svg" alt=""></figure></li>
+<li><figure><img src="images/tevapharm.svg" alt=""></figure></li>
+<li><figure><img src="images/capgemini.svg" alt=""></figure></li>
+<li><figure><img src="images/ntt-data.svg" alt=""></figure></li>
+<li><figure><img src="images/tevapharm.svg" alt=""></figure></li>
+<li><figure><img src="images/capgemini.svg" alt=""></figure></li>
+</ul>
+</div>
+</div>
+</div>
+<style type="text/css">
+.clntslidewrp{position: relative; overflow: hidden;}
+.clntslide{overflow: hidden;}
+.clntslidetrack{margin: -65px 40px 0 40px;overflow: hidden;}
+.clntslide ul li{display: flex;align-items: center;justify-content: center;text-align: center;}
+.clntslide ul li figure img{ width: auto; max-width: 70%;}	
+</style>
+<!--  clients end -->
+</div>
+<div class="pdtp100"></div>
+
+<!-- footer start -->
+<footer>
+<div class="container">
+<div class="ftrbxwrp dflex jstbtwn">
+
+<!-- start 1 -->
+<div class="ftrbx slideanim">
+<a href="#" class="ftrlg"><img src="https://www.redglobal.com/assets/images/svg/logo.svg" alt=""></a>
+<ul class="ftrcnct">
+<li>
+<img src="images/ftrmap.svg" alt=""> 
+RED Global - Headquarters<br/>
+33 Gracechurch Street<br/>
+London, EC3V 0BT
+</li>
+
+<li>
+<img src="images/ftrcal.svg" alt=""><a href="tel:+44 (0)207 107 7600">+44 (0)207 107 7600</a>
+</li>
+
+<li>
+<img src="images/ftrmail.svg" alt=""><a href="mailto:info@redglobal.com">info@redglobal.com</a>
+</li>	
+</ul>
+</div>
+<!-- end 1 -->
+
+<!-- start 2 -->
+<div class="ftrbx slideanim">
+<h4 class="ftrhd">Offices</h4>
+<ul class="ftrlinks">
+<li><a href="#">Offices</a></li>
+<li><a href="#">Köln</a></li>
+<li><a href="#">Frankfurt</a></li>
+<li><a href="#">London</a></li>
+<li><a href="#">München</a></li>
+<li><a href="#">Zürich</a></li>
+<li><a href="#">Jersey City</a></li>
+<li><a href="#">Berlin</a></li>
+<li><a href="#">Rotterdam</a></li>	
+</ul>
+</div>
+<!-- end 2 -->
+
+<!-- start 3 -->
+<div class="ftrbx slideanim">
+<h4 class="ftrhd">Some links</h4>
+<ul class="ftrlinks">
+<li><a href="#">Site Map</a></li>
+<li><a href="#">Terms and conditions</a></li>
+<li><a href="#">Privacy</a></li>
+<li><a href="#">Anti Slavery</a></li>
+<li><a href="#">Environmental Policy</a></li>
+<li><a href="#">Supplier Code of Conduct</a></li>
+</div>
+<!-- end 3 -->
+
+<!-- start 4 -->
+<div class="ftrbx slideanim">
+<h4 class="ftrhd">Subscribe to our newsletter</h4>
+<div class="ftrnwsltr">
+<input type="text" name="" value="Email">
+<button>Subscribe</button>	
+</div>
+</div>
+<!-- end 4 -->
+
+</div>	
+</div>	
+</footer>
+<style type="text/css">
+footer{background: #c4132e; padding: 50px 0}
+.ftrbxwrp{}
+.ftrbx{width: 15%}
+.ftrbx:first-child{width: 30%}
+.ftrbx:last-child{width: 20%}
+.ftrcnct{}
+.ftrcnct li{position: relative;color: #fff;font-size: 14px;line-height: 22px;padding: 5px 0 5px 35px;margin-top: 20px;}
+.ftrcnct li a{color: #fff}
+.ftrcnct li img{position: absolute;top: 7px;left: 0;}
+.ftrlg{width: 140px; display: block;}
+.ftrlg img{width: 100%}
+.ftrhd{color: #fff;font-size: 16px;margin-bottom: 20px;}	
+.ftrlinks{}
+.ftrlinks li{ color: #fff;font-size: 14px;line-height: 22px;margin-top: 10px;}
+.ftrlinks li a{color: #fff}
+.ftrnwsltr{background: #fff;padding: 15px;}
+.ftrnwsltr input, .ftrnwsltr button{background: #eee; width: 100%; height: 40px; line-height: 40px; color: #555; font-size: 14px; padding: 0 10px}
+.ftrnwsltr button{background: #c4132e; color: #fff; margin-top: 10px }
+@media screen and (max-width:768px){
+footer {padding: 20px 0;}	
+.ftrbxwrp {display: block;}	
+.ftrbx{width: 100%!important; margin-bottom: 20px; border-top: 1px solid #ccc; padding-top: 20px}
+.ftrbx:first-child{padding-top: 0; border:0;}
+}
+</style>
+<!-- footer end -->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/glide.js"></script>
+<script type="text/javascript">
+$( document ).ready(function() {
+
+$("#hdrsrch").click(function() {
+$(".srchinpt").toggleClass("adcls");
+});
+
+$("#schlmtng").click(function() {
+$(".schlmtngpp").toggleClass("adcls");
+$("body").toggleClass("adcls");
+});
+
+$("#schlmtngcls").click(function() {
+$(".schlmtngpp").toggleClass("adcls");
+$("body").toggleClass("adcls");
+});
+
+$(".mblnav").click(function() {
+$("nav").toggleClass("adcls");
+$("body").toggleClass("adcls");
+});
+
+$(window).scroll(function() {
+$(".slideanim").each(function(){
+var pos = $(this).offset().top;
+var winTop = $(window).scrollTop();
+if (pos < winTop + 600) {
+$(this).addClass("slide");
+}
+});
+})
+
+});	
+</script>
+<script>
+new Glide(document.querySelector('.ftrsjobslide'),{
+autoplay:false,
+type:'carousel',
+perView:4,
+rewind:false,
+gap:40,
+focusAt: 0,
+slidesToScroll:1,
+breakpoints: {
+768: {
+perView: 1.2
+}
+}
+}).mount();
+
+new Glide(document.querySelector('.clntslide'),{
+autoplay:false,
+type:'carousel',
+perView:6,
+rewind:false,
+gap:20,
+focusAt: 0,
+slidesToScroll:1,
+breakpoints: {
+768: {
+perView: 2
+}
+}
+}).mount();
+	
+</script>
+
+</body>
+</html>
